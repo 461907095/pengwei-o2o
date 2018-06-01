@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355e34e7-c80e-4376-83f3-0bee61a899a6" name="Default" comment="" />
+    <list default="true" id="355e34e7-c80e-4376-83f3-0bee61a899a6" name="Default" comment="新增添加图片和商铺信息">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,25 +21,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/myo2os$ShopServiceTest_testAddrShop.ic" NAME="ShopServiceTest.testAddrShop Coverage Results" MODIFIED="1527814953307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.imooc.myo2o.service.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShopDaoTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/myo2o/dao/ShopDaoTest.java">
+      <file leaf-file-name="ImageUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/ImageUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/ImageUtil.java">
+      <file leaf-file-name="AreaDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dao/AreaDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="175">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/ShopService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,45 +61,34 @@
       <file leaf-file-name="ShopExecution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/ShopExecution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+            <state relative-caret-position="100">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-                <element signature="e#1260#1261#0" expanded="true" />
-                <element signature="e#1288#1289#0" expanded="true" />
-                <element signature="e#1327#1328#0" expanded="true" />
-                <element signature="e#1361#1362#0" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="e#1417#1418#0" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
-                <element signature="e#1487#1488#0" expanded="true" />
-                <element signature="e#1526#1527#0" expanded="true" />
-                <element signature="e#1557#1558#0" expanded="true" />
-                <element signature="e#1609#1610#0" expanded="true" />
-                <element signature="e#1649#1650#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShopStateEnum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/enums/ShopStateEnum.java">
+      <file leaf-file-name="ShopServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/impl/ShopServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="1081">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/myo2o/service/ShopServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,8 +97,8 @@
       <file leaf-file-name="PathUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/PathUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="525">
+              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -118,17 +123,17 @@
       <find>jackson</find>
       <find>ch</find>
       <find>o2o</find>
+      <find>RuntimeException</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pengwei-o2o" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com.imooc.myo2o/entity/Area.java" />
         <option value="$PROJECT_DIR$/src/main/resources.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dao/AreaDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AreaDao.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/BaseTest.java" />
@@ -163,10 +168,15 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/imooc/myo2o/dao/ShopDaoTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/PathUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/ImageUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/ShopExecution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/ShopService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/enums/ShopStateEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/exceptions/ShopOperationException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/imooc/myo2o/service/ShopServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/PathUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/impl/ShopServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/ImageUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dao/AreaDao.java" />
       </list>
     </option>
   </component>
@@ -187,10 +197,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-35" />
-    <option name="y" value="38" />
-    <option name="width" value="1617" />
-    <option name="height" value="892" />
+    <option name="x" value="490" />
+    <option name="y" value="-15" />
+    <option name="width" value="1866" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,100 +212,88 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
+              <item name="catalina.base_IS_UNDEFINED" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="myo2o" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="myo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="myo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="myo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -305,8 +303,8 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -317,8 +315,8 @@
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -328,74 +326,36 @@
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="myo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="myo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="superadmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -403,8 +363,8 @@
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -413,20 +373,45 @@
               <item name="myo2o" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="imooc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="myo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myo2os" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myo2os" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -441,22 +426,23 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\BaiduNetdiskDownload\02JavaEE中级\【No0101】SSM到Spring Boot-从零开发校园商铺平台\imooc\src\main\webapp\WEB-INF" />
-      <recent name="G:\BaiduNetdiskDownload\02JavaEE中级\【No0101】SSM到Spring Boot-从零开发校园商铺平台\imooc\src\test\java\com\imooc\myo2o" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\BaiduNetdiskDownload\02JavaEE中级\pengwei-o2o\myo2os\src\test\resources" />
+      <recent name="G:\BaiduNetdiskDownload\02JavaEE中级\【No0101】SSM到Spring Boot-从零开发校园商铺平台\imooc\src\main\resources" />
+      <recent name="G:\BaiduNetdiskDownload\02JavaEE中级\【No0101】SSM到Spring Boot-从零开发校园商铺平台\imooc\src\test\java\com\imooc\myo2o\dao" />
+      <recent name="G:\BaiduNetdiskDownload\02JavaEE中级\【No0101】SSM到Spring Boot-从零开发校园商铺平台\imooc\src\main\resources\spring" />
+      <recent name="G:\BaiduNetdiskDownload\02JavaEE中级\【No0101】SSM到Spring Boot-从零开发校园商铺平台\imooc\src\main\java\com.imooc.myo2o\entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.imooc.myo2o.dao" />
       <recent name="com.imooc.myo2o.entity" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\BaiduNetdiskDownload\02JavaEE中级\【No0101】SSM到Spring Boot-从零开发校园商铺平台\imooc\src\main\resources" />
-      <recent name="G:\BaiduNetdiskDownload\02JavaEE中级\【No0101】SSM到Spring Boot-从零开发校园商铺平台\imooc\src\test\java\com\imooc\myo2o\dao" />
-      <recent name="G:\BaiduNetdiskDownload\02JavaEE中级\【No0101】SSM到Spring Boot-从零开发校园商铺平台\imooc\src\main\resources\spring" />
-      <recent name="G:\BaiduNetdiskDownload\02JavaEE中级\【No0101】SSM到Spring Boot-从零开发校园商铺平台\imooc\src\main\java\com.imooc.myo2o\entity" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\BaiduNetdiskDownload\02JavaEE中级\【No0101】SSM到Spring Boot-从零开发校园商铺平台\imooc\src\main\webapp\WEB-INF" />
+      <recent name="G:\BaiduNetdiskDownload\02JavaEE中级\【No0101】SSM到Spring Boot-从零开发校园商铺平台\imooc\src\test\java\com\imooc\myo2o" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -471,7 +457,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImageUtil">
+  <component name="RunManager" selected="JUnit.ShopServiceTest.testAddrShop">
     <configuration name="ImageUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imooc.myo2o.util.ImageUtil" />
       <module name="imooc" />
@@ -486,75 +472,6 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="AreaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="imooc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.myo2o.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.myo2o.service" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.myo2o.service.AreaServiceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ShopDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="imooc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.myo2o.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.myo2o.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.myo2o.dao.ShopDaoTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ShopDaoTest.testInsertShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="imooc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.myo2o.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.myo2o.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.myo2o.dao.ShopDaoTest" />
-      <option name="METHOD_NAME" value="testInsertShop" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="ShopDaoTest.testUpdateShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="imooc" />
       <extension name="coverage">
@@ -568,6 +485,75 @@
       <option name="PACKAGE_NAME" value="com.imooc.myo2o.dao" />
       <option name="MAIN_CLASS_NAME" value="com.imooc.myo2o.dao.ShopDaoTest" />
       <option name="METHOD_NAME" value="testUpdateShop" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ShopServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imooc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.myo2o.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.myo2o.service" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.myo2o.service.ShopServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ShopServiceTest.testAddrSho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imooc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.myo2o.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.myo2o.service" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.myo2o.service.ShopServiceTest" />
+      <option name="METHOD_NAME" value="testAddrSho" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ShopServiceTest.testAddrShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imooc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.myo2o.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.myo2o.service" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.myo2o.service.ShopServiceTest" />
+      <option name="METHOD_NAME" value="testAddrShop" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -755,24 +741,24 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="JUnit.AreaServiceTest" />
-      <item itemvalue="JUnit.ShopDaoTest" />
-      <item itemvalue="JUnit.ShopDaoTest.testInsertShop" />
       <item itemvalue="JUnit.ShopDaoTest.testUpdateShop" />
       <item itemvalue="Application.ImageUtil" />
+      <item itemvalue="JUnit.ShopServiceTest.testAddrSho" />
+      <item itemvalue="JUnit.ShopServiceTest" />
+      <item itemvalue="JUnit.ShopServiceTest.testAddrShop" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopServiceTest.testAddrShop" />
+        <item itemvalue="JUnit.ShopServiceTest" />
         <item itemvalue="Application.ImageUtil" />
-        <item itemvalue="JUnit.ShopDaoTest" />
+        <item itemvalue="JUnit.ShopServiceTest.testAddrSho" />
         <item itemvalue="JUnit.ShopDaoTest.testUpdateShop" />
-        <item itemvalue="JUnit.ShopDaoTest.testInsertShop" />
-        <item itemvalue="JUnit.AreaServiceTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\luwei\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -795,50 +781,68 @@
       <workItem from="1527600395057" duration="183000" />
       <workItem from="1527637833756" duration="18154000" />
       <workItem from="1527722188103" duration="6793000" />
+      <workItem from="1527734766167" duration="2142000" />
+      <workItem from="1527808746866" duration="11162000" />
+      <workItem from="1527837977079" duration="2237000" />
     </task>
+    <task id="LOCAL-00001" summary="新增添加图片和商铺信息">
+      <created>1527838671065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527838671065</updated>
+    </task>
+    <task id="LOCAL-00002" summary="新增添加图片和商铺信息">
+      <created>1527839212488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527839212488</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShopDaoTest_testInsertShop - 2018.05.30 at 15h 42m 30s.xml">
-      <configuration name="ShopDaoTest.testInsertShop" configurationId="JUnit" />
+    <history-entry file="ShopServiceTest - 2018.06.01 at 09h 51m 39s.xml">
+      <configuration name="ShopServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopDaoTest - 2018.05.30 at 16h 37m 38s.xml">
-      <configuration name="ShopDaoTest" configurationId="JUnit" />
+    <history-entry file="ShopServiceTest - 2018.06.01 at 09h 53m 39s.xml">
+      <configuration name="ShopServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopDaoTest - 2018.05.30 at 16h 41m 35s.xml">
-      <configuration name="ShopDaoTest" configurationId="JUnit" />
+    <history-entry file="ShopServiceTest - 2018.06.01 at 09h 55m 34s.xml">
+      <configuration name="ShopServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopDaoTest - 2018.05.30 at 16h 44m 11s.xml">
-      <configuration name="ShopDaoTest" configurationId="JUnit" />
+    <history-entry file="ShopServiceTest - 2018.06.01 at 09h 55m 59s.xml">
+      <configuration name="ShopServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopDaoTest - 2018.05.30 at 16h 59m 07s.xml">
-      <configuration name="ShopDaoTest" configurationId="JUnit" />
+    <history-entry file="ShopServiceTest_testAddrShop - 2018.06.01 at 09h 55m 59s.xml">
+      <configuration name="ShopServiceTest.testAddrShop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopDaoTest - 2018.05.30 at 16h 59m 28s.xml">
-      <configuration name="ShopDaoTest" configurationId="JUnit" />
+    <history-entry file="ShopServiceTest - 2018.06.01 at 09h 56m 24s.xml">
+      <configuration name="ShopServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopDaoTest_testUpdateShop - 2018.05.30 at 17h 13m 35s.xml">
-      <configuration name="ShopDaoTest.testUpdateShop" configurationId="JUnit" />
+    <history-entry file="ShopServiceTest - 2018.06.01 at 09h 58m 13s.xml">
+      <configuration name="ShopServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopDaoTest_testUpdateShop - 2018.05.30 at 18h 07m 49s.xml">
-      <configuration name="ShopDaoTest.testUpdateShop" configurationId="JUnit" />
+    <history-entry file="ShopServiceTest - 2018.06.01 at 09h 58m 51s.xml">
+      <configuration name="ShopServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopDaoTest_testUpdateShop - 2018.05.30 at 18h 08m 06s.xml">
-      <configuration name="ShopDaoTest.testUpdateShop" configurationId="JUnit" />
+    <history-entry file="ShopServiceTest - 2018.06.01 at 09h 59m 22s.xml">
+      <configuration name="ShopServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopDaoTest - 2018.05.30 at 18h 08m 14s.xml">
-      <configuration name="ShopDaoTest" configurationId="JUnit" />
+    <history-entry file="ShopServiceTest_testAddrShop - 2018.06.01 at 10h 00m 07s.xml">
+      <configuration name="ShopServiceTest.testAddrShop" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65958000" />
+    <option name="totallyTimeSpent" value="81499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.31480324" side_tool="true" weight="0.32855567" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.31557924" side_tool="true" weight="0.0036101083" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32844242" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -848,48 +852,79 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4996877" weight="0.42494482" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4996877" weight="0.37063777" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68519676" weight="0.3289183" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.37978724" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68442076" weight="0.3254565" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16510417" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19635417" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32855567" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.49578822" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增添加图片和商铺信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增添加图片和商铺信息" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/PathUtil.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/ImageUtil.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources.properties" />
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.imooc.myo2o/entity/Area.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.imooc.myo2o/entity/PersonInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.imooc.myo2o/entity/Area.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.imooc.myo2o/entity/PersonInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.imooc.myo2o/entity/HeadLine.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/myo2o/service/ShopServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="14" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.imooc.myo2o/entity/ShopCategory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com.imooc.myo2o/dao/AreaDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/entity/ShopAuthMap.java" />
@@ -925,13 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dao/AreaDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1009,58 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
-          <folding>
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#1659#1660#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1842#1843#0" expanded="true" />
-            <element signature="e#1878#1879#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1957#1958#0" expanded="true" />
-            <element signature="e#1996#1997#0" expanded="true" />
-            <element signature="e#2043#2044#0" expanded="true" />
-            <element signature="e#2071#2072#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2180#2181#0" expanded="true" />
-            <element signature="e#2227#2228#0" expanded="true" />
-            <element signature="e#2256#2257#0" expanded="true" />
-            <element signature="e#2323#2324#0" expanded="true" />
-            <element signature="e#2368#2369#0" expanded="true" />
-            <element signature="e#2393#2394#0" expanded="true" />
-            <element signature="e#2411#2412#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1106,17 +1082,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/javax/imageio/ImageIO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/exceptions/ShopOperationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1300" selection-start-line="1300" selection-end-line="1300" />
+        <state relative-caret-position="50">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/myo2o/dao/ShopDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="320">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/enums/ShopStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/ShopExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/ShopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1125,61 +1142,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/PathUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="525">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="239" column="23" selection-start-line="239" selection-start-column="23" selection-end-line="239" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="1302" lean-forward="true" selection-start-line="1302" selection-end-line="1302" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/myo2o/service/ShopServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/service/impl/ShopServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/util/ImageUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dto/ShopExecution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/dao/AreaDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1557#1558#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/myo2o/enums/ShopStateEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
