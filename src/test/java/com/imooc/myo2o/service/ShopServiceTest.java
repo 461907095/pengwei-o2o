@@ -31,7 +31,7 @@ public class ShopServiceTest extends BaseTest {
         shopCategory.setShopCategoryId(1L);
         shop.setOwner(owner);
         shop.setArea(area);
-        shop.setShopName("测试的店铺1");
+        shop.setShopName("测试的店铺2");
         shop.setShopDesc("test1");
         shop.setShopAddr("test1");
         shop.setPhone("test1");
