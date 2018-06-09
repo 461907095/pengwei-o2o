@@ -4,7 +4,8 @@ import com.imooc.myo2o.dto.ShopExecution;
 import com.imooc.myo2o.entity.Shop;
 
 import java.io.File;
+import java.io.InputStream;
 
 public interface ShopService {
-    ShopExecution addShop(Shop shop, File shopImg);
+    ShopExecution addShop(Shop shop, InputStream shopImgInputStream,String fileName);
 }
