@@ -1,5 +1,6 @@
 package com.imooc.myo2o.util;
 
+import com.imooc.myo2o.dto.ImageHolder;
 import net.coobird.thumbnailator.Thumbnails;
 import net.coobird.thumbnailator.geometry.Positions;
 import org.springframework.web.util.UriUtils;
@@ -31,14 +32,14 @@ public class ImageUtil {
 
     private static final SimpleDateFormat sDateFormat=new SimpleDateFormat("yyyyMMddHHmmss");
     private static final Random r=new Random();
-    public static String generateThumbnail(InputStream thumbnailInputStream,String fileName, String targetAddr){
+    public static String generateThumbnail(ImageHolder thumbnail, String targetAddr){
         String realFileName = getRandomFileName();
-        String extension = getFileExtension(fileName);
+        String extension = getFileExtension(thumbnail.getImageName());
         makeDirPath(targetAddr);
         String relativeAddr  =targetAddr +realFileName + extension;
         File dest = new File(PathUtil.getImgBasePath() + relativeAddr);
         try {
-            Thumbnails.of(thumbnailInputStream).size(200, 200)
+            Thumbnails.of(thumbnail.getImage()).size(200, 200)
                     .watermark(Positions.BOTTOM_RIGHT,ImageIO.read(new File(base + "/waterremark.png")),0.25f)
                     .outputQuality(0.8f).toFile(dest);
         }catch (IOException e) {
@@ -64,7 +65,7 @@ public class ImageUtil {
 
     /**
      * 获取输入文件流的扩展名
-     * @param cFile
+     * @param fileName
      * @return
      */
     private static String getFileExtension(String fileName) {
@@ -86,5 +87,21 @@ public class ImageUtil {
         Thumbnails.of(new File("G:/new.png")).size(200, 200)
                 .watermark(Positions.BOTTOM_RIGHT, ImageIO.read(new File(UriUtils.decode(basePath,"utf-8") + "/waterremark.png")),
                         0.25f).outputQuality(0.8f).toFile("G:/news.png");
+    }
+
+    /**
+     * storePath如果是文件路径则删除文件
+     * storePath如果是目录路径则删除该目录下的所有文件
+     * @param storePath
+     */
+    public static void deleteFileOrPath(String storePath){
+        File fileOrPath=new File(PathUtil.getImgBasePath()+storePath);
+        if(fileOrPath.isDirectory()){
+            File[] files = fileOrPath.listFiles();
+            for (int i=0;i<files.length;i++){
+                files[i].delete();
+            }
+        }
+        fileOrPath.delete();
     }
 }

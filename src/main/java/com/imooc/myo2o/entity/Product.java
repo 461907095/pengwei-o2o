@@ -1,9 +1,11 @@
 package com.imooc.myo2o.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
-
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Product implements Serializable{
 	private Long productId;
 	private String productName;
