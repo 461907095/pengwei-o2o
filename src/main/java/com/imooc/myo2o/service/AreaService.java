@@ -6,5 +6,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 public interface AreaService {
+    public static String AREALISTKEY="arealist";
     List<Area> getAreaList();
 }
